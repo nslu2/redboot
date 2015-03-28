@@ -1,1 +1,7 @@
 *~
+*.o
+redboot.elf
+redboot.bin
+redboot.img
+redboot.map
+libtarget.a
