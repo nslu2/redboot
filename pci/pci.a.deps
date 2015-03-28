@@ -1,0 +1,370 @@
+pci.o.d: pci.c ../include/pkgconf/hal.h ../include/pkgconf/system.h \
+  ../include/pkgconf/hal_arm.h ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/pkgconf/io_pci.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/cyg/hal/var_io.h \
+  ../include/cyg/hal/plf_io.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/io/pci_cfg.h ../include/cyg/io/pci.h \
+  ../include/cyg/infra/cyg_ass.h ../include/pkgconf/infra.h
+pci_hw.o.d: pci_hw.c ../include/pkgconf/hal.h ../include/pkgconf/system.h \
+  ../include/pkgconf/hal_arm.h ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/io/pci_hw.h \
+  ../include/cyg/hal/hal_io.h ../include/cyg/infra/cyg_type.h \
+  ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/cyg/hal/var_io.h \
+  ../include/cyg/hal/plf_io.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/io/pci_cfg.h
+ixp425_pci.o.d: ixp425_pci.c ../include/pkgconf/hal.h \
+  ../include/pkgconf/system.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/infra/cyg_type.h \
+  ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/cyg/infra/cyg_trac.h \
+  ../include/pkgconf/infra.h ../include/cyg/infra/cyg_ass.h \
+  ../include/cyg/hal/hal_io.h ../include/cyg/hal/var_io.h \
+  ../include/cyg/hal/plf_io.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/hal_if.h ../include/cyg/hal/dbg-threads-api.h \
+  ../include/cyg/hal/dbg-thread-syscall.h ../include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  ../include/cyg/hal/hal_arch.h ../include/cyg/hal/hal_diag.h \
+  ../include/cyg/hal/hal_intr.h ../include/cyg/hal/hal_cache.h \
+  ../include/cyg/hal/hal_mmu.h ../include/cyg/io/pci_hw.h \
+  ../include/cyg/io/pci_cfg.h ../include/cyg/io/pci.h
+ixdp425_pci.o.d: ixdp425_pci.c ../include/pkgconf/hal.h \
+  ../include/pkgconf/system.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/infra/cyg_type.h \
+  ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/cyg/infra/cyg_trac.h \
+  ../include/pkgconf/infra.h ../include/cyg/infra/cyg_ass.h \
+  ../include/cyg/hal/hal_io.h ../include/cyg/hal/var_io.h \
+  ../include/cyg/hal/plf_io.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/hal_if.h ../include/cyg/hal/dbg-threads-api.h \
+  ../include/cyg/hal/dbg-thread-syscall.h ../include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  ../include/cyg/hal/hal_arch.h ../include/cyg/hal/hal_diag.h \
+  ../include/cyg/hal/hal_intr.h ../include/cyg/hal/hal_cache.h \
+  ../include/cyg/hal/hal_mmu.h ../include/cyg/io/pci_hw.h \
+  ../include/cyg/io/pci_cfg.h ../include/cyg/io/pci.h
+pci_test.o.d: pci_test.c ../include/pkgconf/system.h \
+  ../include/cyg/infra/diag.h ../include/pkgconf/infra.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  ../include/cyg/infra/testcase.h ../include/cyg/infra/cyg_ass.h \
+  ../include/pkgconf/io_pci.h ../include/cyg/io/pci.h \
+  ../include/cyg/io/pci_cfg.h ../include/cyg/io/pci_hw.h \
+  ../include/cyg/hal/hal_io.h ../include/cyg/hal/var_io.h \
+  ../include/cyg/hal/plf_io.h ../include/pkgconf/hal.h \
+  ../include/pkgconf/hal_arm.h ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/hal_arch.h ../include/string.h \
+  ../include/pkgconf/isoinfra.h ../include/cyg/libc/string/string.h \
+  ../include/pkgconf/libc_string.h ../include/cyg/libc/string/string.inl
+sk98/skge.o.d: sk98/skge.c ../include/pkgconf/system.h ../include/cyg/io/pci.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h ../include/iob.h \
+  ../include/cyg/hal/hal_cache.h ../include/cyg/hal/hal_mmu.h \
+  sk98/h/skversion.h sk98/h/skdrv1st.h sk98/h/sktypes.h sk98/h/skerror.h \
+  sk98/h/skdebug.h sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skdrv2nd.h \
+  sk98/h/skqueue.h sk98/h/skgehwt.h sk98/h/sktimer.h sk98/h/ski2c.h \
+  sk98/h/skgei2c.h sk98/h/skgepnmi.h sk98/h/skaddr.h sk98/h/skrlmt.h \
+  sk98/h/skvpd.h sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h \
+  sk98/h/skcsum.h sk98/h/skgedrv.h
+sk98/skgeinit.o.d: sk98/skgeinit.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skdrv2nd.h sk98/h/skqueue.h \
+  sk98/h/skgehwt.h sk98/h/sktimer.h sk98/h/ski2c.h sk98/h/skgei2c.h \
+  sk98/h/skgepnmi.h sk98/h/skaddr.h sk98/h/skrlmt.h sk98/h/skvpd.h \
+  sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h sk98/h/skcsum.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h
+sk98/skxmac2.o.d: sk98/skxmac2.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skdrv2nd.h sk98/h/skqueue.h \
+  sk98/h/skgehwt.h sk98/h/sktimer.h sk98/h/ski2c.h sk98/h/skgei2c.h \
+  sk98/h/skgepnmi.h sk98/h/skaddr.h sk98/h/skrlmt.h sk98/h/skvpd.h \
+  sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h sk98/h/skcsum.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h
+sk98/skcsum.o.d: sk98/skcsum.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skcsum.h sk98/h/skqueue.h \
+  sk98/h/skdrv2nd.h sk98/h/skgehwt.h sk98/h/sktimer.h sk98/h/ski2c.h \
+  sk98/h/skgei2c.h sk98/h/skgepnmi.h sk98/h/skaddr.h sk98/h/skrlmt.h \
+  sk98/h/skvpd.h sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h
+sk98/skgepnmi.o.d: sk98/skgepnmi.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skqueue.h sk98/h/skgepnmi.h \
+  sk98/h/sktimer.h sk98/h/ski2c.h sk98/h/skgei2c.h sk98/h/skaddr.h \
+  sk98/h/skrlmt.h sk98/h/skvpd.h sk98/h/skgesirq.h sk98/h/skcsum.h \
+  sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skdrv2nd.h sk98/h/skgehwt.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h sk98/h/skgepnm2.h sk98/skgemib.c
+sk98/ski2c.o.d: sk98/ski2c.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skdrv2nd.h sk98/h/skqueue.h \
+  sk98/h/skgehwt.h sk98/h/sktimer.h sk98/h/ski2c.h sk98/h/skgei2c.h \
+  sk98/h/skgepnmi.h sk98/h/skaddr.h sk98/h/skrlmt.h sk98/h/skvpd.h \
+  sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h sk98/h/skcsum.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h
+sk98/skrlmt.o.d: sk98/skrlmt.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skdrv2nd.h sk98/h/skqueue.h \
+  sk98/h/skgehwt.h sk98/h/sktimer.h sk98/h/ski2c.h sk98/h/skgei2c.h \
+  sk98/h/skgepnmi.h sk98/h/skaddr.h sk98/h/skrlmt.h sk98/h/skvpd.h \
+  sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h sk98/h/skcsum.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h
+sk98/skvpd.o.d: sk98/skvpd.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skdrv2nd.h sk98/h/skqueue.h \
+  sk98/h/skgehwt.h sk98/h/sktimer.h sk98/h/ski2c.h sk98/h/skgei2c.h \
+  sk98/h/skgepnmi.h sk98/h/skaddr.h sk98/h/skrlmt.h sk98/h/skvpd.h \
+  sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h sk98/h/skcsum.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h
+sk98/skaddr.o.d: sk98/skaddr.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skdrv2nd.h sk98/h/skqueue.h \
+  sk98/h/skgehwt.h sk98/h/sktimer.h sk98/h/ski2c.h sk98/h/skgei2c.h \
+  sk98/h/skgepnmi.h sk98/h/skaddr.h sk98/h/skrlmt.h sk98/h/skvpd.h \
+  sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h sk98/h/skcsum.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h
+sk98/skgehwt.o.d: sk98/skgehwt.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skdrv2nd.h sk98/h/skqueue.h \
+  sk98/h/skgehwt.h sk98/h/sktimer.h sk98/h/ski2c.h sk98/h/skgei2c.h \
+  sk98/h/skgepnmi.h sk98/h/skaddr.h sk98/h/skrlmt.h sk98/h/skvpd.h \
+  sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h sk98/h/skcsum.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h
+sk98/skgesirq.o.d: sk98/skgesirq.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skgepnmi.h sk98/h/sktimer.h \
+  sk98/h/skqueue.h sk98/h/ski2c.h sk98/h/skgei2c.h sk98/h/skaddr.h \
+  sk98/h/skrlmt.h sk98/h/skvpd.h sk98/h/skdrv2nd.h sk98/h/skgehwt.h \
+  sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h sk98/h/skcsum.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h
+sk98/sklm80.o.d: sk98/sklm80.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skdrv2nd.h sk98/h/skqueue.h \
+  sk98/h/skgehwt.h sk98/h/sktimer.h sk98/h/ski2c.h sk98/h/skgei2c.h \
+  sk98/h/skgepnmi.h sk98/h/skaddr.h sk98/h/skrlmt.h sk98/h/skvpd.h \
+  sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h sk98/h/skcsum.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h
+sk98/skqueue.o.d: sk98/skqueue.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skqueue.h sk98/h/skdrv2nd.h \
+  sk98/h/skgehwt.h sk98/h/sktimer.h sk98/h/ski2c.h sk98/h/skgei2c.h \
+  sk98/h/skgepnmi.h sk98/h/skaddr.h sk98/h/skrlmt.h sk98/h/skvpd.h \
+  sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h sk98/h/skcsum.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h
+sk98/sktimer.o.d: sk98/sktimer.c sk98/h/skdrv1st.h sk98/h/sktypes.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h sk98/h/skerror.h sk98/h/skdebug.h \
+  sk98/h/lm80.h sk98/h/xmac_ii.h sk98/h/skdrv2nd.h sk98/h/skqueue.h \
+  sk98/h/skgehwt.h sk98/h/sktimer.h sk98/h/ski2c.h sk98/h/skgei2c.h \
+  sk98/h/skgepnmi.h sk98/h/skaddr.h sk98/h/skrlmt.h sk98/h/skvpd.h \
+  sk98/h/skgehw.h sk98/h/skgeinit.h sk98/h/skgesirq.h sk98/h/skcsum.h \
+  sk98/h/skgedrv.h ../include/iob.h ../include/pkgconf/system.h \
+  ../include/cyg/io/pci.h ../include/cyg/io/pci_cfg.h \
+  ../include/cyg/io/pci_hw.h ../include/cyg/hal/hal_io.h \
+  ../include/cyg/hal/var_io.h ../include/cyg/hal/plf_io.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/grg.h \
+  ../include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  ../include/cyg/hal/hal_ixp425.h ../include/cyg/hal/hal_xscale.h \
+  ../include/pkgconf/hal_arm_xscale_core.h \
+  ../include/cyg/hal/hal_plf_ints.h ../include/cyg/hal/hal_var_ints.h \
+  ../include/cyg/hal/drv_api.h

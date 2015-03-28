@@ -1,0 +1,150 @@
+enet.o.d: enet.c ../include/net/net.h ../include/pkgconf/system.h \
+  ../include/pkgconf/redboot.h ../include/pkgconf/hal.h \
+  ../include/pkgconf/hal_arm.h ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/hal_arch.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/string.h \
+  ../include/pkgconf/isoinfra.h ../include/cyg/libc/string/string.h \
+  ../include/pkgconf/libc_string.h ../include/cyg/libc/string/string.inl \
+  ../include/iob.h ../include/pkgconf/io_eth_drivers.h
+arp.o.d: arp.c ../include/redboot.h ../include/pkgconf/redboot.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/system.h \
+  ../include/pkgconf/hal_arm.h ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/hal_if.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/cyg/hal/dbg-threads-api.h \
+  ../include/cyg/hal/dbg-thread-syscall.h ../include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  ../include/cyg/hal/hal_arch.h ../include/cyg/hal/hal_tables.h \
+  ../include/cyg/infra/diag.h ../include/pkgconf/infra.h \
+  ../include/cyg/crc/crc.h ../include/string.h \
+  ../include/pkgconf/isoinfra.h ../include/cyg/libc/string/string.h \
+  ../include/pkgconf/libc_string.h ../include/cyg/libc/string/string.inl \
+  ../include/net/net.h ../include/iob.h \
+  ../include/pkgconf/io_eth_drivers.h ../include/net/bootp.h
+ip.o.d: ip.c ../include/net/net.h ../include/pkgconf/system.h \
+  ../include/pkgconf/redboot.h ../include/pkgconf/hal.h \
+  ../include/pkgconf/hal_arm.h ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/hal_arch.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/string.h \
+  ../include/pkgconf/isoinfra.h ../include/cyg/libc/string/string.h \
+  ../include/pkgconf/libc_string.h ../include/cyg/libc/string/string.inl \
+  ../include/iob.h ../include/pkgconf/io_eth_drivers.h
+udp.o.d: udp.c ../include/net/net.h ../include/pkgconf/system.h \
+  ../include/pkgconf/redboot.h ../include/pkgconf/hal.h \
+  ../include/pkgconf/hal_arm.h ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/hal_arch.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/string.h \
+  ../include/pkgconf/isoinfra.h ../include/cyg/libc/string/string.h \
+  ../include/pkgconf/libc_string.h ../include/cyg/libc/string/string.inl \
+  ../include/iob.h ../include/pkgconf/io_eth_drivers.h
+icmp.o.d: icmp.c ../include/net/net.h ../include/pkgconf/system.h \
+  ../include/pkgconf/redboot.h ../include/pkgconf/hal.h \
+  ../include/pkgconf/hal_arm.h ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/hal_arch.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/string.h \
+  ../include/pkgconf/isoinfra.h ../include/cyg/libc/string/string.h \
+  ../include/pkgconf/libc_string.h ../include/cyg/libc/string/string.inl \
+  ../include/iob.h ../include/pkgconf/io_eth_drivers.h
+ping.o.d: ping.c ../include/redboot.h ../include/pkgconf/redboot.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/system.h \
+  ../include/pkgconf/hal_arm.h ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/hal_if.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/cyg/hal/dbg-threads-api.h \
+  ../include/cyg/hal/dbg-thread-syscall.h ../include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  ../include/cyg/hal/hal_arch.h ../include/cyg/hal/hal_tables.h \
+  ../include/cyg/infra/diag.h ../include/pkgconf/infra.h \
+  ../include/cyg/crc/crc.h ../include/string.h \
+  ../include/pkgconf/isoinfra.h ../include/cyg/libc/string/string.h \
+  ../include/pkgconf/libc_string.h ../include/cyg/libc/string/string.inl \
+  ../include/net/net.h ../include/iob.h \
+  ../include/pkgconf/io_eth_drivers.h ../include/net/bootp.h
+tftp_client.o.d: tftp_client.c ../include/redboot.h \
+  ../include/pkgconf/redboot.h ../include/pkgconf/hal.h \
+  ../include/pkgconf/system.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/hal_if.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/cyg/hal/dbg-threads-api.h \
+  ../include/cyg/hal/dbg-thread-syscall.h ../include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  ../include/cyg/hal/hal_arch.h ../include/cyg/hal/hal_tables.h \
+  ../include/cyg/infra/diag.h ../include/pkgconf/infra.h \
+  ../include/cyg/crc/crc.h ../include/string.h \
+  ../include/pkgconf/isoinfra.h ../include/cyg/libc/string/string.h \
+  ../include/pkgconf/libc_string.h ../include/cyg/libc/string/string.inl \
+  ../include/net/net.h ../include/iob.h \
+  ../include/pkgconf/io_eth_drivers.h ../include/net/bootp.h \
+  ../include/net/tftp.h ../include/net/tftp_support.h
+cksum.o.d: cksum.c ../include/net/net.h ../include/pkgconf/system.h \
+  ../include/pkgconf/redboot.h ../include/pkgconf/hal.h \
+  ../include/pkgconf/hal_arm.h ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/hal_arch.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/string.h \
+  ../include/pkgconf/isoinfra.h ../include/cyg/libc/string/string.h \
+  ../include/pkgconf/libc_string.h ../include/cyg/libc/string/string.inl \
+  ../include/iob.h ../include/pkgconf/io_eth_drivers.h
+inet_addr.o.d: inet_addr.c ../include/redboot.h \
+  ../include/pkgconf/redboot.h ../include/pkgconf/hal.h \
+  ../include/pkgconf/system.h ../include/pkgconf/hal_arm.h \
+  ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/hal_if.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/cyg/hal/dbg-threads-api.h \
+  ../include/cyg/hal/dbg-thread-syscall.h ../include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  ../include/cyg/hal/hal_arch.h ../include/cyg/hal/hal_tables.h \
+  ../include/cyg/infra/diag.h ../include/pkgconf/infra.h \
+  ../include/cyg/crc/crc.h ../include/string.h \
+  ../include/pkgconf/isoinfra.h ../include/cyg/libc/string/string.h \
+  ../include/pkgconf/libc_string.h ../include/cyg/libc/string/string.inl \
+  ../include/net/net.h ../include/iob.h \
+  ../include/pkgconf/io_eth_drivers.h ../include/net/bootp.h
+ticks.o.d: ticks.c ../include/redboot.h ../include/pkgconf/redboot.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/system.h \
+  ../include/pkgconf/hal_arm.h ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/hal_if.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/cyg/hal/dbg-threads-api.h \
+  ../include/cyg/hal/dbg-thread-syscall.h ../include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  ../include/cyg/hal/hal_arch.h ../include/cyg/hal/hal_tables.h \
+  ../include/cyg/infra/diag.h ../include/pkgconf/infra.h \
+  ../include/cyg/crc/crc.h ../include/string.h \
+  ../include/pkgconf/isoinfra.h ../include/cyg/libc/string/string.h \
+  ../include/pkgconf/libc_string.h ../include/cyg/libc/string/string.inl \
+  ../include/net/net.h ../include/iob.h \
+  ../include/pkgconf/io_eth_drivers.h ../include/net/bootp.h
+load.o.d: load.c ../include/redboot.h ../include/pkgconf/redboot.h \
+  ../include/pkgconf/hal.h ../include/pkgconf/system.h \
+  ../include/pkgconf/hal_arm.h ../include/pkgconf/hal_arm_xscale_ixp425.h \
+  ../include/pkgconf/hal_arm_xscale_grg.h ../include/cyg/hal/hal_if.h \
+  ../include/cyg/infra/cyg_type.h ../include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  ../include/cyg/hal/basetype.h ../include/cyg/hal/dbg-threads-api.h \
+  ../include/cyg/hal/dbg-thread-syscall.h ../include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  ../include/cyg/hal/hal_arch.h ../include/cyg/hal/hal_tables.h \
+  ../include/cyg/infra/diag.h ../include/pkgconf/infra.h \
+  ../include/cyg/crc/crc.h ../include/string.h \
+  ../include/pkgconf/isoinfra.h ../include/cyg/libc/string/string.h \
+  ../include/pkgconf/libc_string.h ../include/cyg/libc/string/string.inl \
+  ../include/net/net.h ../include/iob.h \
+  ../include/pkgconf/io_eth_drivers.h ../include/net/bootp.h \
+  ../include/elf.h ../include/net/tftp_support.h

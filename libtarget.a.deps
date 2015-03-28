@@ -1,0 +1,345 @@
+context.o.d: context.S include/pkgconf/hal.h include/pkgconf/system.h \
+  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h arm.inc
+ixp425_misc.o.d: ixp425_misc.c include/pkgconf/hal.h \
+  include/pkgconf/system.h include/pkgconf/hal_arm.h \
+  include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h \
+  include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/infra/cyg_trac.h \
+  include/pkgconf/infra.h include/cyg/infra/cyg_ass.h \
+  include/cyg/hal/hal_io.h include/cyg/hal/var_io.h \
+  include/cyg/hal/plf_io.h include/cyg/hal/grg.h \
+  include/cyg/hal/hal_ixp425.h include/cyg/hal/hal_xscale.h \
+  include/pkgconf/hal_arm_xscale_core.h include/cyg/hal/hal_plf_ints.h \
+  include/cyg/hal/hal_var_ints.h include/cyg/hal/hal_stub.h \
+  include/cyg/hal/hal_if.h include/cyg/hal/dbg-threads-api.h \
+  include/cyg/hal/dbg-thread-syscall.h include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_diag.h \
+  include/cyg/hal/hal_intr.h include/cyg/hal/hal_cache.h \
+  include/cyg/hal/hal_mmu.h include/cyg/infra/diag.h \
+  include/cyg/hal/drv_api.h
+arch_hal_misc.o.d: arch_hal_misc.c include/pkgconf/hal.h \
+  include/pkgconf/system.h include/pkgconf/hal_arm.h \
+  include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/infra/cyg_type.h \
+  include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/infra/cyg_trac.h \
+  include/pkgconf/infra.h include/cyg/infra/cyg_ass.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_intr.h \
+  include/cyg/hal/hal_plf_ints.h include/cyg/hal/hal_var_ints.h \
+  include/cyg/hal/hal_ixp425.h include/cyg/hal/hal_xscale.h \
+  include/pkgconf/hal_arm_xscale_core.h
+common_hal_misc.o.d: common_hal_misc.c include/pkgconf/hal.h \
+  include/pkgconf/system.h include/pkgconf/hal_arm.h \
+  include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/hal/hal_arch.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/hal/hal_if.h \
+  include/cyg/hal/dbg-threads-api.h include/cyg/hal/dbg-thread-syscall.h \
+  include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_intr.h include/cyg/hal/hal_plf_ints.h \
+  include/cyg/hal/hal_var_ints.h include/cyg/hal/hal_ixp425.h \
+  include/cyg/hal/hal_xscale.h include/pkgconf/hal_arm_xscale_core.h \
+  include/cyg/hal/hal_misc.h include/cyg/infra/cyg_trac.h \
+  include/pkgconf/infra.h include/cyg/infra/cyg_ass.h
+xscale_misc.o.d: xscale_misc.c include/pkgconf/hal.h \
+  include/pkgconf/system.h include/pkgconf/hal_arm.h \
+  include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h \
+  include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h
+hal_if.o.d: hal_if.c include/pkgconf/hal.h include/pkgconf/system.h \
+  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/infra/cyg_ass.h \
+  include/pkgconf/infra.h include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/hal/hal_arch.h \
+  include/cyg/hal/hal_io.h include/cyg/hal/var_io.h \
+  include/cyg/hal/plf_io.h include/cyg/hal/grg.h \
+  include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  include/cyg/hal/hal_ixp425.h include/cyg/hal/hal_xscale.h \
+  include/pkgconf/hal_arm_xscale_core.h include/cyg/hal/hal_plf_ints.h \
+  include/cyg/hal/hal_var_ints.h include/cyg/hal/hal_if.h \
+  include/cyg/hal/dbg-threads-api.h include/cyg/hal/dbg-thread-syscall.h \
+  include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_diag.h include/cyg/hal/hal_misc.h \
+  include/cyg/hal/hal_stub.h include/cyg/hal/hal_intr.h \
+  include/pkgconf/redboot.h
+ixp425_diag.o.d: ixp425_diag.c include/pkgconf/hal.h \
+  include/pkgconf/system.h include/pkgconf/hal_arm.h \
+  include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/infra/cyg_type.h \
+  include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/infra/cyg_trac.h \
+  include/pkgconf/infra.h include/cyg/infra/cyg_ass.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_intr.h \
+  include/cyg/hal/hal_plf_ints.h include/cyg/hal/hal_var_ints.h \
+  include/cyg/hal/hal_ixp425.h include/cyg/hal/hal_xscale.h \
+  include/pkgconf/hal_arm_xscale_core.h include/cyg/hal/hal_io.h \
+  include/cyg/hal/var_io.h include/cyg/hal/plf_io.h include/cyg/hal/grg.h \
+  include/pkgconf/mlt_arm_xscale_grg_romram.h include/cyg/hal/hal_diag.h \
+  include/cyg/hal/hal_if.h include/cyg/hal/dbg-threads-api.h \
+  include/cyg/hal/dbg-thread-syscall.h include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/drv_api.h include/cyg/hal/hal_misc.h
+grg_misc.o.d: grg_misc.c include/pkgconf/hal.h include/pkgconf/system.h \
+  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/infra/cyg_type.h \
+  include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/infra/cyg_trac.h \
+  include/pkgconf/infra.h include/cyg/infra/cyg_ass.h \
+  include/cyg/hal/hal_io.h include/cyg/hal/var_io.h \
+  include/cyg/hal/plf_io.h include/cyg/hal/grg.h \
+  include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  include/cyg/hal/hal_ixp425.h include/cyg/hal/hal_xscale.h \
+  include/pkgconf/hal_arm_xscale_core.h include/cyg/hal/hal_plf_ints.h \
+  include/cyg/hal/hal_var_ints.h include/cyg/hal/hal_arch.h \
+  include/cyg/hal/hal_diag.h include/cyg/hal/hal_if.h \
+  include/cyg/hal/dbg-threads-api.h include/cyg/hal/dbg-thread-syscall.h \
+  include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_intr.h include/cyg/hal/hal_cache.h \
+  include/cyg/hal/hal_mmu.h include/cyg/infra/diag.h
+drv_api.o.d: drv_api.c include/pkgconf/system.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/infra/cyg_trac.h \
+  include/pkgconf/infra.h include/cyg/infra/cyg_ass.h \
+  include/pkgconf/hal.h include/pkgconf/hal_arm.h \
+  include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/hal/drv_api.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_intr.h \
+  include/cyg/hal/hal_plf_ints.h include/cyg/hal/hal_var_ints.h \
+  include/cyg/hal/hal_ixp425.h include/cyg/hal/hal_xscale.h \
+  include/pkgconf/hal_arm_xscale_core.h
+diag.o.d: diag.cxx include/pkgconf/system.h include/pkgconf/hal.h \
+  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/pkgconf/infra.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/infra/diag.h include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_intr.h \
+  include/cyg/hal/hal_plf_ints.h include/cyg/hal/hal_var_ints.h \
+  include/cyg/hal/hal_ixp425.h include/cyg/hal/hal_xscale.h \
+  include/pkgconf/hal_arm_xscale_core.h include/cyg/hal/hal_diag.h \
+  include/cyg/hal/hal_if.h include/cyg/hal/dbg-threads-api.h \
+  include/cyg/hal/dbg-thread-syscall.h include/limits.h \
+  include/pkgconf/isoinfra.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/limits.h
+io.o.d: io.c include/redboot.h include/pkgconf/redboot.h \
+  include/pkgconf/hal.h include/pkgconf/system.h \
+  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/hal/hal_if.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/hal/dbg-threads-api.h \
+  include/cyg/hal/dbg-thread-syscall.h include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_tables.h \
+  include/cyg/infra/diag.h include/pkgconf/infra.h include/cyg/crc/crc.h \
+  include/string.h include/pkgconf/isoinfra.h \
+  include/cyg/libc/string/string.h include/pkgconf/libc_string.h \
+  include/cyg/libc/string/string.inl include/net/net.h include/iob.h \
+  include/pkgconf/io_eth_drivers.h include/net/bootp.h
+parse.o.d: parse.c include/redboot.h include/pkgconf/redboot.h \
+  include/pkgconf/hal.h include/pkgconf/system.h \
+  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/hal/hal_if.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/hal/dbg-threads-api.h \
+  include/cyg/hal/dbg-thread-syscall.h include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_tables.h \
+  include/cyg/infra/diag.h include/pkgconf/infra.h include/cyg/crc/crc.h \
+  include/string.h include/pkgconf/isoinfra.h \
+  include/cyg/libc/string/string.h include/pkgconf/libc_string.h \
+  include/cyg/libc/string/string.inl include/net/net.h include/iob.h \
+  include/pkgconf/io_eth_drivers.h include/net/bootp.h \
+  include/cyg/hal/hal_intr.h include/cyg/hal/hal_plf_ints.h \
+  include/cyg/hal/hal_var_ints.h include/cyg/hal/hal_ixp425.h \
+  include/cyg/hal/hal_xscale.h include/pkgconf/hal_arm_xscale_core.h \
+  include/cyg/hal/hal_cache.h include/cyg/hal/hal_io.h \
+  include/cyg/hal/var_io.h include/cyg/hal/plf_io.h include/cyg/hal/grg.h \
+  include/pkgconf/mlt_arm_xscale_grg_romram.h include/cyg/hal/hal_mmu.h
+eth_drv.o.d: eth_drv.c include/pkgconf/system.h \
+  include/pkgconf/io_eth_drivers.h include/cyg/infra/cyg_type.h \
+  include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/hal/hal_arch.h \
+  include/pkgconf/hal.h include/pkgconf/hal_arm.h \
+  include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/infra/diag.h \
+  include/pkgconf/infra.h include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/drv_api.h include/cyg/hal/hal_if.h \
+  include/cyg/hal/dbg-threads-api.h include/cyg/hal/dbg-thread-syscall.h \
+  include/cyg/io/eth/eth_drv.h include/cyg/io/eth/netdev.h \
+  include/cyg/hal/hal_tables.h include/string.h \
+  include/pkgconf/isoinfra.h include/cyg/libc/string/string.h \
+  include/pkgconf/libc_string.h include/cyg/libc/string/string.inl \
+  include/iob.h
+net_io.o.d: net_io.c include/redboot.h include/pkgconf/redboot.h \
+  include/pkgconf/hal.h include/pkgconf/system.h \
+  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/hal/hal_if.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/hal/dbg-threads-api.h \
+  include/cyg/hal/dbg-thread-syscall.h include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_tables.h \
+  include/cyg/infra/diag.h include/pkgconf/infra.h include/cyg/crc/crc.h \
+  include/string.h include/pkgconf/isoinfra.h \
+  include/cyg/libc/string/string.h include/pkgconf/libc_string.h \
+  include/cyg/libc/string/string.inl include/net/net.h include/iob.h \
+  include/pkgconf/io_eth_drivers.h include/net/bootp.h \
+  include/cyg/io/eth/eth_drv.h include/cyg/hal/drv_api.h \
+  include/cyg/hal/hal_misc.h include/cyg/hal/hal_intr.h \
+  include/cyg/hal/hal_plf_ints.h include/cyg/hal/hal_var_ints.h \
+  include/cyg/hal/hal_ixp425.h include/cyg/hal/hal_xscale.h \
+  include/pkgconf/hal_arm_xscale_core.h include/cyg/io/eth/netdev.h
+enet.o.d: enet.c include/redboot.h include/pkgconf/redboot.h \
+  include/pkgconf/hal.h include/pkgconf/system.h \
+  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/hal/hal_if.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/hal/dbg-threads-api.h \
+  include/cyg/hal/dbg-thread-syscall.h include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_tables.h \
+  include/cyg/infra/diag.h include/pkgconf/infra.h include/cyg/crc/crc.h \
+  include/string.h include/pkgconf/isoinfra.h \
+  include/cyg/libc/string/string.h include/pkgconf/libc_string.h \
+  include/cyg/libc/string/string.inl include/net/net.h include/iob.h \
+  include/pkgconf/io_eth_drivers.h include/net/bootp.h \
+  include/cyg/io/eth/eth_drv.h include/cyg/hal/drv_api.h \
+  include/cyg/io/eth/netdev.h
+upgrade.o.d: upgrade.c include/redboot.h include/pkgconf/redboot.h \
+  include/pkgconf/hal.h include/pkgconf/system.h \
+  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/hal/hal_if.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/hal/dbg-threads-api.h \
+  include/cyg/hal/dbg-thread-syscall.h include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_tables.h \
+  include/cyg/infra/diag.h include/pkgconf/infra.h include/cyg/crc/crc.h \
+  include/string.h include/pkgconf/isoinfra.h \
+  include/cyg/libc/string/string.h include/pkgconf/libc_string.h \
+  include/cyg/libc/string/string.inl include/net/net.h include/iob.h \
+  include/pkgconf/io_eth_drivers.h include/net/bootp.h \
+  include/cyg/io/flash.h include/pkgconf/io_flash.h \
+  include/cyg/hal/hal_cache.h include/cyg/hal/hal_io.h \
+  include/cyg/hal/var_io.h include/cyg/hal/plf_io.h include/cyg/hal/grg.h \
+  include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  include/cyg/hal/hal_ixp425.h include/cyg/hal/hal_xscale.h \
+  include/pkgconf/hal_arm_xscale_core.h include/cyg/hal/hal_plf_ints.h \
+  include/cyg/hal/hal_var_ints.h include/cyg/hal/hal_mmu.h strata.h \
+  include/pkgconf/devs_flash_strata.h include/pkgconf/devs_flash_grg.h \
+  include/cyg/io/grg_strataflash.inl
+flash.o.d: flash.c strata.h include/pkgconf/system.h \
+  include/pkgconf/devs_flash_strata.h include/pkgconf/devs_flash_grg.h \
+  include/cyg/io/grg_strataflash.inl include/pkgconf/hal.h \
+  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/hal/hal_arch.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/hal/hal_cache.h \
+  include/cyg/hal/hal_io.h include/cyg/hal/var_io.h \
+  include/cyg/hal/plf_io.h include/cyg/hal/grg.h \
+  include/pkgconf/mlt_arm_xscale_grg_romram.h \
+  include/cyg/hal/hal_ixp425.h include/cyg/hal/hal_xscale.h \
+  include/pkgconf/hal_arm_xscale_core.h include/cyg/hal/hal_plf_ints.h \
+  include/cyg/hal/hal_var_ints.h include/cyg/hal/hal_mmu.h \
+  include/cyg/io/flash.h include/pkgconf/io_flash.h
+iob.o.d: iob.c include/iob.h include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h
+main.o.d: main.c include/redboot.h include/pkgconf/redboot.h \
+  include/pkgconf/hal.h include/pkgconf/system.h \
+  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/hal/hal_if.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/hal/dbg-threads-api.h \
+  include/cyg/hal/dbg-thread-syscall.h include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_tables.h \
+  include/cyg/infra/diag.h include/pkgconf/infra.h include/cyg/crc/crc.h \
+  include/string.h include/pkgconf/isoinfra.h \
+  include/cyg/libc/string/string.h include/pkgconf/libc_string.h \
+  include/cyg/libc/string/string.inl include/net/net.h include/iob.h \
+  include/pkgconf/io_eth_drivers.h include/net/bootp.h \
+  include/cyg/hal/hal_intr.h include/cyg/hal/hal_plf_ints.h \
+  include/cyg/hal/hal_var_ints.h include/cyg/hal/hal_ixp425.h \
+  include/cyg/hal/hal_xscale.h include/pkgconf/hal_arm_xscale_core.h \
+  include/cyg/hal/hal_cache.h include/cyg/hal/hal_io.h \
+  include/cyg/hal/var_io.h include/cyg/hal/plf_io.h include/cyg/hal/grg.h \
+  include/pkgconf/mlt_arm_xscale_grg_romram.h include/cyg/hal/hal_mmu.h \
+  include/cyg/io/eth/eth_drv.h include/cyg/hal/drv_api.h
+version.o.d: version.c include/pkgconf/redboot.h include/pkgconf/hal.h \
+  include/pkgconf/system.h include/pkgconf/hal_arm.h \
+  include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/hal/hal_arch.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h
+timer.o.d: timer.c include/redboot.h include/pkgconf/redboot.h \
+  include/pkgconf/hal.h include/pkgconf/system.h \
+  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/cyg/hal/hal_if.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/hal/dbg-threads-api.h \
+  include/cyg/hal/dbg-thread-syscall.h include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_tables.h \
+  include/cyg/infra/diag.h include/pkgconf/infra.h include/cyg/crc/crc.h \
+  include/string.h include/pkgconf/isoinfra.h \
+  include/cyg/libc/string/string.h include/pkgconf/libc_string.h \
+  include/cyg/libc/string/string.inl include/net/net.h include/iob.h \
+  include/pkgconf/io_eth_drivers.h include/net/bootp.h \
+  include/cyg/hal/hal_intr.h include/cyg/hal/hal_plf_ints.h \
+  include/cyg/hal/hal_var_ints.h include/cyg/hal/hal_ixp425.h \
+  include/cyg/hal/hal_xscale.h include/pkgconf/hal_arm_xscale_core.h \
+  include/cyg/hal/drv_api.h include/cyg/hal/hal_stub.h
+redboot_linux_exec.o.d: redboot_linux_exec.c include/pkgconf/hal.h \
+  include/pkgconf/system.h include/pkgconf/hal_arm.h \
+  include/pkgconf/hal_arm_xscale_ixp425.h \
+  include/pkgconf/hal_arm_xscale_grg.h include/redboot.h \
+  include/pkgconf/redboot.h include/cyg/hal/hal_if.h \
+  include/cyg/infra/cyg_type.h include/stddef.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stddef.h \
+  include/cyg/hal/basetype.h include/cyg/hal/dbg-threads-api.h \
+  include/cyg/hal/dbg-thread-syscall.h include/stdarg.h \
+  /usr/local/lib/gcc-lib/arm-linux/3.2.1/include/stdarg.h \
+  include/cyg/hal/hal_arch.h include/cyg/hal/hal_tables.h \
+  include/cyg/infra/diag.h include/pkgconf/infra.h include/cyg/crc/crc.h \
+  include/string.h include/pkgconf/isoinfra.h \
+  include/cyg/libc/string/string.h include/pkgconf/libc_string.h \
+  include/cyg/libc/string/string.inl include/net/net.h include/iob.h \
+  include/pkgconf/io_eth_drivers.h include/net/bootp.h \
+  include/cyg/io/eth/eth_drv.h include/cyg/hal/drv_api.h \
+  include/cyg/hal/hal_intr.h include/cyg/hal/hal_plf_ints.h \
+  include/cyg/hal/hal_var_ints.h include/cyg/hal/hal_ixp425.h \
+  include/cyg/hal/hal_xscale.h include/pkgconf/hal_arm_xscale_core.h \
+  include/cyg/hal/hal_cache.h include/cyg/hal/hal_io.h \
+  include/cyg/hal/var_io.h include/cyg/hal/plf_io.h include/cyg/hal/grg.h \
+  include/pkgconf/mlt_arm_xscale_grg_romram.h include/cyg/hal/hal_mmu.h
+cmd.o.d: cmd.c
