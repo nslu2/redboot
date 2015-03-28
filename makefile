@@ -29,7 +29,6 @@ TESTS :=
 MODEL_NAME := redboot
 TARGET := $(MODEL_NAME).bin
 
-.PHONY: $(TARGET)
 
 $(TARGET): $(MODEL_NAME).elf
 	$(OBJCOPY) --strip-debug $< $(@:.bin=.img) 
