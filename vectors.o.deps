@@ -1,9 +1,0 @@
-vectors.o : \
-  include/pkgconf/hal_arm.h include/pkgconf/hal_arm_xscale_ixp425.h \
-  include/pkgconf/hal_arm_xscale_grg.h \
-  include/cyg/hal/hal_platform_setup.h include/cyg/hal/hal_ixp425.h \
-  include/cyg/hal/hal_xscale.h include/pkgconf/hal_arm_xscale_core.h \
-  include/cyg/hal/hal_mmu.h include/cyg/hal/hal_mm.h \
-  include/cyg/hal/grg.h include/pkgconf/mlt_arm_xscale_grg_romram.h \
-  arm.inc include/cyg/hal/hal_platform_extras.h
-

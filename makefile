@@ -54,8 +54,8 @@ $(LIBRARY): $(OBJECTS)
 
 vectors.o: vectors.S
 	$(CC) -Wp,-MD,vectors.tmp $(INCLUDE_PATH) $(CFLAGS) -c -o $@ $<
-	@echo $@ ": \\" > $(notdir $@).deps
-	@tail +2 vectors.tmp >> $(notdir $@).deps
+	#@echo $@ ": \\" > $(notdir $@).deps
+	@cat vectors.tmp >> $(notdir $@).deps
 	@echo >> $(notdir $@).deps
 	@rm vectors.tmp
 
@@ -73,7 +73,7 @@ LIBSS := $(PREFIX)/lib/lib.a $(PREFIX)/pci/pci.a $(PREFIX)/net/net.a #$(PREFIX)/
 #redboot.elf: $(wildcard target.ld $(PREFIX)/lib/libtarget.a $(PREFIX)/lib/libextras.a)
 redboot.elf: vectors.o $(LIBRARY) $(LIBSS)
 	@sh -c "mkdir -p $(dir $@)"
-	$(CC)  $(LIBRARY)  $(LIBSS)  $(LDFLAGS) -Ttarget.ld -o $@  
+	$(CC)  $(LIBRARY)  $(LIBSS)  $(LDFLAGS) -Ttarget.ld -o $@
 
 #$(PREFIX)/lib/version.o
 
