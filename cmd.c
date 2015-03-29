@@ -182,7 +182,7 @@ int kbd_proc(void)
 		return(1);
 	case ASCII_TAB:
 		ch_buf[buf_idx]=ASCII_SPACE;
-	    if(buf_idx<sizeof(ch_buf))
+		if(buf_idx<sizeof(ch_buf))
 		{
 			buf_idx++;
 			hal_if_diag_write_char(ASCII_SPACE);
@@ -200,8 +200,8 @@ int kbd_proc(void)
 		break;
 	default:
 		ch_buf[buf_idx]=kbd_cc;
-	    if(buf_idx<sizeof(ch_buf))
-	    {
+		if(buf_idx<sizeof(ch_buf))
+		{
 			buf_idx++;
 			hal_if_diag_write_char(kbd_cc);
 		}
@@ -305,7 +305,6 @@ int arg_idx = 0;
 	}	
 	else if(!strcmp(argv[0], "ip_address"))
 	{
-
 	  do_ip_addr(argc,argv);
         }
         else if(!strcmp(argv[0], "load"))
